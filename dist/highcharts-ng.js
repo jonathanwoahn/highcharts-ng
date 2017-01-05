@@ -178,6 +178,9 @@ if (typeof module !== 'undefined' && typeof exports !== 'undefined' && module.ex
       if (config.subtitle) {
         mergedOptions.subtitle = config.subtitle;
       }
+      if (config.drilldown) {
+        mergedOptions.drilldown = config.drilldown;
+      }
       if (config.credits) {
         mergedOptions.credits = config.credits;
       }
